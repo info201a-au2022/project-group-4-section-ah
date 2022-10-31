@@ -18,9 +18,9 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 
 |Element | Brief Description|
 |---------------| --------------
-|Code name | Give your project a _code name_, a short, evocative name for efficiently referring to your project. Your code name does not change! Examples: _iPad kids_
+|Code name | _iPad kids_
 |Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) | The Effects of Screen Time 
-|Authors | . Dhruv Ashok, Kai Magbuhat : kaim0616@uw.edu, Nikhila Suneel: nsuneel@uw.edu|
+|Authors | Dhruv Ashok: dashok@uw.edu, Kai Magbuhat : kaim0616@uw.edu, Nikhila Suneel: nsuneel@uw.edu|
 |Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
 |Date | Autumn 2022|
 |Abstract Dhruv| Write a short abstract of three sentences. Your abstract should summarize your entire project, but only the very most important aspects. Here are two examples of how you might structure your abstract: **(1)** "Our main question is .... This question is important because .... To address the question, we will ...." and **(2)** "We are concerned with ..., because .... To address this concern, we plan to ...." |
