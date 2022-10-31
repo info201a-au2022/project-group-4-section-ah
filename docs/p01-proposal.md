@@ -40,7 +40,7 @@ Describe how your dataset is related to your problem domain and, specifically, t
 |References | Include your three or more research citations here. Also, include citations to your data files. Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions - Nikki| Do you have questions for your TA or instructor?  Include them here.|
 
-| Syntax      | Description | Test Text     |
+|       | Name | Observation   #  | Variable #.   |  Citation.  |
 | :---        |    :----:   |          ---: |
 | Header      | Title       | Here's this   |
 | Paragraph   | Text        | And more      |
