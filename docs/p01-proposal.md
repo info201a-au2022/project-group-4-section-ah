@@ -43,6 +43,8 @@ Describe how your dataset is related to your problem domain and, specifically, t
 
 | Syntax      | Name        | Observation # | Variable # | Citation |
 | :---        |    :----:   |          ---: |      ---:  |   ---:   | 
-| Data Set 1  | Title       | Here's this   |            |          |
+| Data Set 1  | Title       | 29,434        |   443      |   Bureau, US Census. “2019 NSCH Data Release.” The United States Census Bureau, 30 Sept.  
+
+2020, www.census.gov/data/datasets/2019/demo/nsch/nsch2019.html     |
 | Data Set 2  | Text        | And more      |            |          |
 | Data Set 3  |             |               |            |          |
