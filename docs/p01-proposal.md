@@ -40,13 +40,9 @@ Describe how your dataset is related to your problem domain and, specifically, t
 |References | Include your three or more research citations here. Also, include citations to your data files. Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
 |Appendix A: Questions - Nikki| Do you have questions for your TA or instructor?  Include them here.|
 
-|       | Name | Observation   #  | Variable #.   |  Citation.  |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Data Set 1  | Title       | Here's this   |
-| Data Set 2  | Text        | And more      |
-| Data Set 3  |             |               | 
+| Syntax      | Name        | Observation # | Variable # | Citation |
+| :---        |    :----:   |          ---: |      ---:  |   ---:   | 
+| Data Set 1  | Title       | Here's this   |            |          |
+| Data Set 2  | Text        | And more      |            |          |
+| Data Set 3  |             |               |            |          |
