@@ -47,5 +47,6 @@ Describe how your dataset is related to your problem domain and, specifically, t
 
 | Syntax      | Description | Test Text     |
 | :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Data Set 1  | Title       | Here's this   |
+| Data Set 2  | Text        | And more      |
+| Data Set 3  |             |               | 
