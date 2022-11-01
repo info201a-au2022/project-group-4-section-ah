@@ -42,5 +42,5 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 | Syntax      | Name        | Observation # | Variable # | Citation |
 | :---        |    :----:   |          ---: |      ---:  |   ---:   | 
 | Data Set 1  | 2019 NCHS Data Release Screen Time vs. Hours of Sleep       | 29,434        |   443      |   Bureau, US Census. “2019 NSCH Data Release.” The United States Census Bureau, 30 Sept. 2020,www.census.gov/data/datasets/2019/demo/nsch/nsch2019.html     |
-| Data Set 2  | Human Stress Detection in and through Sleep        | And more      |            |          |
-| Data Set 3  |     The Depression Data        |               |            |          |
+| Data Set 2  | Human Stress Detection in and through Sleep        | 631      |      9      |    Rachakonda, L. (2022, February 15). Human stress detection in and through sleep. Kaggle. Retrieved October 31, 2022, from https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep/discussion       |
+| Data Set 3  |     The Depression Data        |         32      |      11     |    https://www.kaggle.com/datasets/arashnic/the-depression-dataset      |
