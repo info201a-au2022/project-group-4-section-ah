@@ -18,8 +18,8 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 
 |Element | Brief Description|
 |---------------| --------------
-|Code name | _iPad kids_
-|Project title| Give your project a concise, interesting title that summarizes the entirety of your project. (Your title can change on subsequent deliverables.) | The Effects on Kids Sleep 
+|Code name | _iPad kids_ |
+|Project title| The Effects on Kids Sleep | 
 |Authors | Dhruv Ashok: dashok@uw.edu, Kai Magbuhat : kaim0616@uw.edu, Nikhila Suneel: nsuneel@uw.edu|
 |Affiliation |  INFO-201: Technical Foundations of Informatics - The Information School - University of Washington |
 |Date | Autumn 2022|
