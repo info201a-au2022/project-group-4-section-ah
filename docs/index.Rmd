@@ -1,6 +1,6 @@
 ---
 title: "Your Project Title"
-author: "project team members"
+author: "Dhruv Ashok, Kai Magbuhat, Nikhila Suneel"
 date: "1/22/2022"
 output: html_document
 ---
