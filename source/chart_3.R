@@ -31,10 +31,8 @@ sleep_hours_per_age <- scores %>%
   group_by(age, patient_type)
 # the actual visualization
 labels <- rep(c("condition", "control"), 10)
-ggplot(data = sleep_hours_per_age, aes(fill = labels, x = age, 
+bar_chart <- ggplot(data = sleep_hours_per_age, aes(fill = labels, x = age, 
                                        y = avg_hrs_sleep)) + 
   geom_bar(position = "dodge", stat = "identity") +
   ggtitle("Average Sleep Duration by Depression Diagnosis") +
   ylab("hours of sleep")
-
-# while not fully consistent, for the maj of observations we see control > condition
