@@ -24,7 +24,7 @@ stress_data <- stress_data %>%
   mutate(value = round(as.numeric(value),0))
 
 # The Multiple Plots
-p <- stress_data %>%
+histogram_chart <- stress_data %>%
   mutate(text = fct_reorder(text, value)) %>%
   ggplot( aes(x=value, color=text, fill=text)) +
   geom_histogram(alpha=0.8, binwidth = 6) +
@@ -39,4 +39,4 @@ p <- stress_data %>%
   xlab("") +
   ylab("Number of Hours") +
   facet_wrap(~text)
-View(p)
+View(histogram_chart)
