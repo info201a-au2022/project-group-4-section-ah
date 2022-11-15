@@ -27,6 +27,10 @@ In addition, the average number of hours of screen time every day across childre
 
 ## Charts
 ### Chart 1
+```{r scatterplot_chart, echo=FALSE}
+scatterplot_chart
+```
+These two scatter plot charts are displayed in two different colors, one blue and one red. The blue represents the male population and red represents the female population. Between the two, this charts looks at the difference between screen time and total hours of sleep. You can observe the differnce of densiities of how many got certain hours of screentime. The darker the dot, the more number of individuals in that range. It can be observed where most of the populaiton lie withing the data. Observations can be made between which gender gets more or less sleep depending on their screen time. 
 ### Chart 2
 ### Chart 3
 ```{r bar_chart, echo=FALSE}
