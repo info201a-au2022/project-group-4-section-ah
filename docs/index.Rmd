@@ -1,5 +1,5 @@
 ---
-title: "Your Project Title"
+title: "The Various Factors That Affect Sleep Patterns"
 author: "Dhruv Ashok, Kai Magbuhat, Nikhila Suneel"
 date: "11/14/2022"
 output: html_document
@@ -9,28 +9,17 @@ output: html_document
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## What is this file for?
-
-* This file will eventually become your project report for **P02: Exploratory Data Analysis**. Specifically, you will write rmarkdown to report your exploratory data analysis.
-
-* Please see Canvas for more details.
-
-## ACCESSING THE /source DIRECTORY
-### Sourcing table/chart code
 ```{r, include=FALSE}
-# Example 1: Note relative path, which can be read: Up one
-# directory(..), down into source (/source), and 
-# then "source" an R file (data_access.R)
-source("../source/data_access.R")
 source("../source/chart_3.R")
+source("../source/summary_info.R")
 ```
 
-### Example 2: Initialize a variable and then use it
+## Summary Paragraph
+[paragraph goes here]
+
 ## Summary Table
-```{r, echo=FALSE}
-# Example 1: This function was "sourced" above
-msg <- data_access_test(" Morgan!")
-```
+[table goes here]
+
 
 ## Charts
 ### Chart 1
