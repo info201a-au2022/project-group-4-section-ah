@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = FALSE)
 source("../source/chart_3.R")
 source("../source/summary_info.R")
 source('../source/chart_2.R")
-source(("../source/chart_1.R")
+source("../source/chart_1.R")
 ```
 
 ## Summary Paragraph
