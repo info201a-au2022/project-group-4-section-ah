@@ -12,6 +12,8 @@ knitr::opts_chunk$set(echo = FALSE)
 ```{r, include=FALSE}
 source("../source/chart_3.R")
 source("../source/summary_info.R")
+source('../source/chart_2.R")
+
 ```
 
 ## Summary Paragraph
@@ -29,6 +31,9 @@ In addition, the average number of hours of screen time every day across childre
 ### Chart 3
 ```{r bar_chart, echo=FALSE}
 bar_chart
+```
+```{r histogram_chart, echo=FALSE}
+histogram_chart
 ```
 
 This grouped bar chart compares the average sleep duration in hours, by age group, for patients with a diagnosed form of depression (the condition group) and those without a diagnosed form of depression (the control group). The chart was included to determine if there was a correlation between diagnosed depression and sleep duration. We can observe from the chart that, while not true for every age group in this study, for the *majority* of age groups the condition group gets _**less**_ sleep on average compared to the control group. Further statistical analysis or studies may need to be conducted to determine if this correlation is signficant, and there are some data quality issues as there was no data for the control group for the 55-59 age group. Still, this correlation can certainly be explored further.
