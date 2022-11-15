@@ -24,6 +24,7 @@ In addition, the average number of hours of screen time every day across childre
 ## Summary Table
 [table goes here]
 
+The table is grouped up data included from the screen time vs. sleep dataset. This dataset was chosen because its variables signify correlation between the two main variables, hours of screen time to hours of sleep. We will look through certain variables of age groups. This is including infants, toddlers, and elementary, middle, and high school children. The table will be displayed the calculated mean time of hours spent on screens and the average time of sleep those observed children acquired. 
 
 ## Charts
 ### Chart 1
