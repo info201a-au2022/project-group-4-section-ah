@@ -15,7 +15,9 @@ source("../source/summary_info.R")
 ```
 
 ## Summary Paragraph
-[paragraph goes here]
+The chosen subset of the study comparing sleep to screen time in children contained `r summary_info$num_observations` observations with `r summary_info$num_variables` variables. The study collected data on a variety of chidren, ranging from age `r summary_info$min_age` to age `r summary_info$max_age`. While Chart 1 displays the general correlation between sleep time per night and screen time per day, we may observe some general statistics about the distribution of sleep and screen times.
+The average number of hours spent sleeping every night across children of all sexes and ages is `r summary_info$avg_sleep`, and the median is `r summary_info$median_sleep`. Thus, the sleep distribution is `r get_skew(summary_info$avg_sleep, summary_info$median_sleep)` skewed.
+In addition, the average number of hours of screen time every day across children of all sexes and ages is `r summary_info$avg_screen_time`, and the median is `r summary_info$median_screen_time`. Thus, the screen time distribution is `r get_skew(summary_info$avg_screen_time, summary_info$median_screen_time)` skewed.
 
 ## Summary Table
 [table goes here]
