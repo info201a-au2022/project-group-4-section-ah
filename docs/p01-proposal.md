@@ -35,7 +35,7 @@ For what to do, see the [`../instructions/`](../instructions/) directory, specif
 |_Discussion_ | _Not for the project proposal; for final report only. Discuss importance and/or implications of your findings  (About 400 words.)_ |
 |_Conclusion_ | _Not for the project proposal; for final report only. Give the reader a summary point, the key point that you will like your audience to leave with. (About 400 words.)_ |
 |Acknowledgements | Is there anyone you would like to thank? A librarian who helped you with your research? A Teaching Assistant? A friend who helped you find your data? Say thank you in this section.|
-|References | Include your three or more research citations here. Also, include citations to your data files. Please use a standard citation style of your choice.  See [Citing Sources](https://guides.lib.uw.edu/research/citations) at the UW Library. |
+|References | Bureau, U. S. C. (2021, November 15). 2019 NSCH Data release. Census.gov. Retrieved November 15, 2022, from http://www.census.gov/data/datasets/2019/demo/nsch/nsch2019.html <br> Rachakonda, L. (2022, February 15). Human stress detection in and through sleep. Kaggle. Retrieved November 15, 2022, from https://www.kaggle.com/datasets/laavanya/human-stress-detection-in-and-through-sleep/discussion <br> M, M. (2021, February 6). The depression dataset. Kaggle. Retrieved November 15, 2022, from https://www.kaggle.com/datasets/arashnic/the-depression-dataset  |
 |Appendix A: Questions| Do you have questions for your TA or instructor?  Include them here.|
 
 
