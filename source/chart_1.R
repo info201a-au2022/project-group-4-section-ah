@@ -1,7 +1,7 @@
 library(dplyr)
 library(ggplot2)
 
-sleep_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/screen-sleep-iso.csv")
+sleep_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/screentime_female_vs_male.csv")
 View(sleep_data)
 men_sleep <- sleep_data %>% 
   filter(SC_SEX == 1) %>% 
@@ -32,4 +32,3 @@ womenplot <- ggplot( data = women_sleep) +
 library(gridExtra)
 
 united <- grid.arrange(womenplot, manplot, ncol = 2)
-united

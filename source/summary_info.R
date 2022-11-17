@@ -1,6 +1,6 @@
 library(tidyverse)
 
-data <- read.csv("../data/screen-sleep-iso.csv")
+data <- read.csv("../data/screentime_female_vs_male.csv")
 summary_info <- list()
 summary_info$num_observations <- nrow(data)
 summary_info$num_variables <- ncol(data)

@@ -1,9 +1,3 @@
-install.packages("tidyverse")
-install.packages("dplyr")
-install.packages("gapminder")
-install.packages("hrbrthemes")
-install.packages("viridis")
-install.packages("forcats")
 library(dplyr)
 library(tidyverse)
 library(ggplot2)
@@ -39,4 +33,4 @@ histogram_chart <- stress_data %>%
   xlab("") +
   ylab("Number of Hours") +
   facet_wrap(~text)
-View(histogram_chart)
+
