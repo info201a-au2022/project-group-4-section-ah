@@ -32,8 +32,8 @@ summary_page <- tabPanel(
 )
 
 report_page <- tabPanel(
-  "Report",
-  titlePanel("Report")
+  "Conclusion",
+  titlePanel("Conclusion")
   # report UI goes here
 )
 
