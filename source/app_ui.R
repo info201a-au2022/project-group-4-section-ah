@@ -8,26 +8,26 @@ intro_page <- tabPanel(
 )
 
 page_one <- tabPanel(
-  "Page 1",
-  titlePanel("Page 1")
+  "Visual 1",
+  titlePanel("Visual 1")
   # page 1 UI goes here
 )
 
 page_two <- tabPanel(
-  "Page 2",
-  titlePanel("Page 2")
+  "Visual 2",
+  titlePanel("Visual 2")
   # page 2 UI goes here
 )
 
 page_three <- tabPanel(
-  "Page 3",
-  titlePanel("Page 3")
+  "Visual 3",
+  titlePanel("Visual 3")
   # page 3 UI goes here
 )
 
 summary_page <- tabPanel(
-  "Summary",
-  titlePanel("Summary")
+  "Summary Takeaways",
+  titlePanel("Summary Takeaways")
   # summary UI goes here
 )
 
