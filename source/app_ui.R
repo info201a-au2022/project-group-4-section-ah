@@ -1,3 +1,4 @@
+library(plotly)
 library(shiny)
 library(tidyverse)
 
@@ -21,8 +22,27 @@ page_two <- tabPanel(
 
 page_three <- tabPanel(
   "Visual 3",
-  titlePanel("Visual 3")
-  # page 3 UI goes here
+  titlePanel("Visual 3"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(inputId = "chart_type", label = "Chart Type", 
+                  choices = c("Bar", "Line"))
+    ),
+    mainPanel(
+      plotlyOutput("grouped_bar_chart")
+    )
+  ),
+  p("This chart is included in both a grouped bar chart form, which is better 
+  for seeing individual age group comparisons between the control and condition
+  groups, and a line chart which is better for seeing general trends across
+  age groups for each of the conditional and control groups. This chart reveals 
+  that there is no strong correlation in this dataset between depression and 
+  duration of sleep, as the control group and condition group have widely 
+  varying sleep duration averages across age groups. Further, the control and
+  condition groups switch on having the higher sleep duration for different age
+  groups, which means we cannot draw any conclusions about sleep duration
+  and age either. It is possible that the data quality may have impacted the 
+  reliability of these results.")
 )
 
 summary_page <- tabPanel(
@@ -32,8 +52,8 @@ summary_page <- tabPanel(
 )
 
 report_page <- tabPanel(
-  "Conclusion",
-  titlePanel("Conclusion")
+  "Report",
+  titlePanel("Report")
   # report UI goes here
 )
 
