@@ -21,11 +21,11 @@ page_two <- tabPanel(
   titlePanel("Visual 2"),
   sidebarLayout(
     sidebarPanel(
-      selectInput(inputId = "chart_type", label = "Chart Type", 
-                  choices = c("Bar", "Line"))
+      selectInput(inputId = "", label = "", 
+                  choices = c("", ""))
     ),
     mainPanel(
-      plotlyOutput("grouped_bar_chart")
+      plotlyOutput("histogram_chart")
     )
   )
 )
@@ -39,7 +39,7 @@ page_three <- tabPanel(
                   choices = c("Bar", "Line"))
     ),
     mainPanel(
-      plotlyOutput("histogram_chart")
+      plotlyOutput("grouped_bar_chart")
     )
   ),
   p("This chart is included in both a grouped bar chart form, which is better 
