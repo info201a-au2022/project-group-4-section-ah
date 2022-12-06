@@ -18,8 +18,16 @@ page_one <- tabPanel(
 
 page_two <- tabPanel(
   "Visual 2",
-  titlePanel("Visual 2")
-  # page 2 UI goes here
+  titlePanel("Visual 2"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(inputId = "chart_type", label = "Chart Type", 
+                  choices = c("Bar", "Line"))
+    ),
+    mainPanel(
+      plotlyOutput("grouped_bar_chart")
+    )
+  )
 )
 
 page_three <- tabPanel(
