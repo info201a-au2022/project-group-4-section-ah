@@ -39,7 +39,7 @@ page_three <- tabPanel(
                   choices = c("Bar", "Line"))
     ),
     mainPanel(
-      plotlyOutput("grouped_bar_chart")
+      plotlyOutput("histogram_chart")
     )
   ),
   p("This chart is included in both a grouped bar chart form, which is better 
