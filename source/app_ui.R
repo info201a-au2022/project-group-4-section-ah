@@ -72,8 +72,12 @@ summary_page <- tabPanel(
   h3("Stress Data"),
   p(""),
   h3("Depression Data"),
-  p(""),
-  
+  p("The visualization of each age group and the number of hours each condition or control group recieved reveals that there is no
+clear indication that depression and sleep are correlated to one another. The bar graph portrays a visible difference in the condition
+and control group in the number of hours they slept. However, the difference varies from varying age groups. Meaning that neither condition
+nor control group was always recieving more hours of sleep. It would vary. The line graph tells the same story but in visually represents it differently. 
+The lines are showing a general trend of the different age groups and how much they are on average getting sleep whether it is controlled or condition.
+Overall, this data set was not further evidece to the claim that those with clinical depression recieve more sleep that others. "),
 )
 
 report_page <- tabPanel(
