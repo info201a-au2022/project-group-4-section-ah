@@ -23,7 +23,6 @@ server <- function(input, output) {
   output$histogram_chart <- renderPlotly({
     stress_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/stress_data.csv")
     stress_data <- stress_data %>%
-       filter(
 
          
   histogram_chart <- stress_data %>%
