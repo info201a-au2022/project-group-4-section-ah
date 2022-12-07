@@ -6,13 +6,18 @@ server <- function(input, output) {
   
   output$scatter_plot <- renderPlotly({
     sleep_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/screentime_female_vs_male.csv")
-    men_sleep <- sleep_data %>% 
-      filter(SC_SEX == 1) %>% 
+    sleep_data <- sleep_data %>% 
+      filter(SC_SEX == input$displaySex) %>% 
+      filter(Age %in% input$ageRange[1]:input$ageRange[2]) %>% 
       select(TOTALHOURS, SCREENTIME, Age)
-    women_sleep <- sleep_data %>% 
-      filter(SC_SEX == 2) %>% 
-      select(TOTALHOURS, SCREENTIME, Age)
-    
+    plot <- ggplot(data = sleep_data) +
+      geom_point(mapping = aes(x = TOTALHOURS, y = SCREENTIME), 
+                 color = case_when(input$displaySex == 1 ~ "blue", TRUE ~ "red"),
+                                   alpha = 0.01) +
+      ggtitle("Sleep vs. Screen Time") +
+      xlab("Hours of Sleep") +
+      ylab("Hours of Screen Time")
+    plot
   })
   
   output$grouped_bar_chart <- renderPlotly({
@@ -44,9 +49,10 @@ server <- function(input, output) {
       ggtitle("Average Sleep Duration by Depression Diagnosis") +
       ylab("Hours of Sleep") +
       xlab("Age")
+      
     if(input$chart_type == "Bar") {
       bar_chart
-    } else{
+    } else {
       line_chart
     }
   })

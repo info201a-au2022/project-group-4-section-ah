@@ -1,4 +1,3 @@
-install.packages("plotly")
 library(plotly)
 library(shiny)
 library(tidyverse)
@@ -8,12 +7,12 @@ intro_page <- tabPanel(
   h1("Analyzing Sleep Patterns"),
   titlePanel("Introduction"),
   p("Our lives can be summed up into two parts, awake and asleep. Sleep is an 
-    essential part of our lives. We can’t avoid sleeping, it is our basic human 
+    essential part of our lives. We can’t avoid sleeping, as it is our basic human 
     nature to sleep. Not only does it physically and mentally recharge us for 
     the day ahead but many phycological events occur in the brain that the human
     body needs. Collectively, society functions less without sleep. Sleep is a
     natural and primal part of every living organism. As a result, the data on 
-    sleep is vast and well diverse. It is known that people of the new 
+    sleep is vast and well diverse. It is known that people particularly of the new 
     generations aren’t getting enough sleep, but why? There are many assumed 
     reasons why people aren’t getting enough sleep so this data will show the 
     correlations between sleep and these reasons. From this data, conclusions
@@ -23,9 +22,29 @@ intro_page <- tabPanel(
 
 page_one <- tabPanel(
   "Visual 1",
-  titlePanel("Visual 1"),
-  # page 1 UI goes here
-  p("")
+  titlePanel("Screen Time and Sleep"),
+  sidebarLayout(
+    sidebarPanel(
+      radioButtons(inputId = "displaySex", label = "Choose Sex", 
+                   choiceNames = c("Male", "Female"),
+                   choiceValues = c(1, 2)),
+      sliderInput(inputId = "ageRange", label = "Choose Age", min = 0, max = 18,
+                  value = c(0, 18))
+    ),
+    mainPanel(
+      plotlyOutput("scatter_plot")  
+    )
+  ),
+  p("This scatterplot compares the hours of sleep to hours of screen time for 
+  each sex, as well as for different age groups, and displays the frequency of 
+  a combination of sleep and screen time with a lighter or darker dot (light 
+  occurs less, dark occurs more). This allows us to see not only
+  sif there is a correlation between sleep and screen time, but if this 
+  correlation holds across different age groups and sexes. The data reveals no
+  such correlation exists across age groups and sexes, as the dots are pretty
+  evenly distributed across all possible combinations of sleep and screen time.
+  One can notice, however, that teenagers tend to get less sleep than younger
+  children.")
 )
 
 page_two <- tabPanel(
@@ -40,8 +59,8 @@ page_two <- tabPanel(
 )
 
 page_three <- tabPanel(
-  "Visual 3",
-  titlePanel("Visual 3"),
+  "Depression and Sleep",
+  titlePanel("Depression and Sleep"),
   sidebarLayout(
     sidebarPanel(
       selectInput(inputId = "chart_type", label = "Chart Type", 
@@ -74,17 +93,17 @@ summary_page <- tabPanel(
   h3("Depression Data"),
   p("The visualization of each age group and the number of hours each condition or control group recieved reveals that there is no
 clear indication that depression and sleep are correlated to one another. The bar graph portrays a visible difference in the condition
-and control group in the number of hours they slept. However, the difference varies from varying age groups. Meaning that neither condition
-nor control group was always recieving more hours of sleep. It would vary. The line graph tells the same story but in visually represents it differently. 
+and control group in the number of hours they slept. However, the difference varies from varying age groups, meaning that neither condition
+nor control group was always recieving more hours of sleep. It would vary. The line graph tells the same story but it visually represents it differently. 
 The lines are showing a general trend of the different age groups and how much they are on average getting sleep whether it is controlled or condition.
-Overall, this data set was not further evidece to the claim that those with clinical depression recieve more sleep that others. "),
+Overall, this data set was not further evidence to the claim that those with clinical depression recieve more sleep that others."),
 )
 
 report_page <- tabPanel(
   "Report",
   titlePanel("Report"),
   h3("Code Name"),
-  p("_iPad kids_"),
+  em(p("iPad kids")),
   h3("Project title"),
   p("The Various Factors That Affect Children's Sleep Patterns"),
   h3("Authors"),
@@ -92,7 +111,7 @@ report_page <- tabPanel(
   h3("Affiliation"),
   p("INFO-201: Technical Foundations of Informatics - The Information School - University of Washington"),
   h3("Date"),
-  p("Autmn 2022"),
+  p("Autumn 2022"),
   h3("Abstract"),
   p("Our main question is how various factors affect the duration and quality of sleep in younger generations. This question is important because quality sleep is vital to the physical and cognitive development of young children, and studying if, how, and why that sleep is affected is key to understanding the health of younger generations. To address this question, we will examine and analyze data that correlates various factors such as screen time, mental health, and stress management to sleep, and examine if there is a link between any of these factors and sleep. "),
   h3("Keywords"),
