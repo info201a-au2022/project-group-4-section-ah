@@ -25,8 +25,8 @@ server <- function(input, output) {
     stress_data <- stress_data %>%
        filter(
 
-# The Multiple Plots
-histogram_chart <- stress_data %>%
+         
+  histogram_chart <- stress_data %>%
   mutate(text = fct_reorder(text, value)) %>%
   ggplot( aes(x=value, color=text, fill=text)) +
   geom_histogram(alpha=0.8, binwidth = 6) +
@@ -41,7 +41,8 @@ histogram_chart <- stress_data %>%
   xlab("") +
   ylab("Number of Hours") +
   facet_wrap(~text)
-  
+  })
+    
   output$grouped_bar_chart <- renderPlotly({
     scores <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/depression_data/scores.csv")
     averages <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/depression_data/sleep_averages.csv")
