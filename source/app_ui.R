@@ -1,11 +1,14 @@
 library(plotly)
 library(shiny)
 library(tidyverse)
+library(shinythemes)
 
 intro_page <- tabPanel(
   "Introduction",
   h1("Analyzing Sleep Patterns"),
   titlePanel("Introduction"),
+  img(src = "https://images.pexels.com/photos/1359554/pexels-photo-1359554.jpeg",
+      style = "width: 242px; height: 323px"),
   p("Our lives can be summed up into two parts, awake and asleep. Sleep is an 
     essential part of our lives. We can’t avoid sleeping, as it is our basic human 
     nature to sleep. Not only does it physically and mentally recharge us for 
@@ -17,7 +20,20 @@ intro_page <- tabPanel(
     reasons why people aren’t getting enough sleep so this data will show the 
     correlations between sleep and these reasons. From this data, conclusions
     can be made whether these reasons should kept or monitored in a person’s 
-    life.")
+    life."),
+  p("For this project, we examine the following questions:"),
+  tags$ul(
+    tags$li("What factors, if any, affect the duration and quality of sleep in younger generations?"),
+    tags$li("Does increased screen time lead to lower quality and duration of sleep in younger generations?"),
+    tags$li("Is there a correlation between stress management and quality and duration of sleep in younger generations?"),
+    tags$li("Is there a correlation between mental health and quality and duration of sleep in younger generations?")
+  ),
+  p("We will do so by examining three datasets that each answer one specific
+  question, as well as help answer our broader first question. 
+  One has data correlating the hours of sleep to hours of screen time usage in 
+  children aged 0 to 18. Another has data about stress levels and the related
+  quality and duration of sleep. The final one has data about mental health
+  conditions such as bipolar disorder and the related duration of sleep.")
 )
 
 page_one <- tabPanel(
@@ -169,6 +185,7 @@ report_page <- tabPanel(
 )
 
 ui <- navbarPage(
+  theme = shinytheme("darkly"),
   "Factors that Affect Sleep Patterns",
   intro_page,
   page_one,
