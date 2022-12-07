@@ -54,7 +54,11 @@ page_two <- tabPanel(
   
   
   
-  p("")
+  p("This histogram of the stress data set compares the hours of sleep to the 
+subjects many factors that were observed. Such factors were snoring rate, 
+resprition rate, body temperature, limb movement, and blood oxygyn levels. 
+There factorswere measured by various scales, hence meaning not all the same 
+measurement scale was used for all variables.")
   # page 2 UI goes here
 )
 
