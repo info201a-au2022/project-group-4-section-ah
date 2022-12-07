@@ -49,7 +49,7 @@ page_one <- tabPanel(
 
 page_two <- tabPanel(
   "Visual 2",
-  titlePanel("Visual 2"),
+  titlePanel("Stress Data"),
   
   
   
@@ -61,11 +61,7 @@ There factorswere measured by various scales, hence meaning not all the same
 measurement scale was used for all variables. By creating histograms for the 
 varying variables, the audience is able to view and compare the relationship
 between hours of sleep and the lower or higher ranges of, for example, snoring rates.
-The data reveals that for some variables a skewed lower or higher measurement resulted in 
-a greater amount of sleep. However, there were variables that revealed no such correlation
-between the two variables, hours of sleep and, for example, snoring rate. For snoring rate
-lower rates such as 45, subjects recieved great amounts of sleep and for a higher snoring
-rate such as 100, subjects still recieved a great amount of sleep.")
+")
 )
 
 page_three <- tabPanel(
@@ -104,7 +100,14 @@ we are able to view where the freqencies of the combination of screen time and h
 and where they are less dense. From examining the data we have come to the concusion that based on this singular data set, there is no noticable
 correlation between the two variables screen time and hours of sleep no matter the varying factors of age and gender."),
   h3("Factors of Stress Data"),
-  p(""),
+  p("The data reveals that for some variables a skewed lower or higher measurement resulted in a greater amount of sleep. However,
+there were variables that revealed no such correlationbetween the two variables, hours of sleep and, for example, snoring rate. For snoring rate
+lower rates such as 45, subjects recieved great amounts of sleep and for a higher snoring rate such as 100, subjects still recieved
+a great amount of sleep. A major takeaway we gained from analyzing the data from this data set is that although a there is a popular notion that
+those who are more stressed have a harder time sleeping or getting the same amount of sleep as a someone who isn't perhaps as stressed, some factors
+such as heart rate and blood oxygen levels, which are factors you wouldn't think would contribute to stress while sleeping, do actually effect hours 
+of sleep a human receives. 
+"),
   h3("Depression Data"),
   p("The visualization of each age group and the number of hours each condition or control group recieved reveals that there is no
 clear indication that depression and sleep are correlated to one another. The bar graph portrays a visible difference in the condition
