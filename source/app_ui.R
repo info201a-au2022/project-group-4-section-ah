@@ -96,9 +96,14 @@ page_three <- tabPanel(
 summary_page <- tabPanel(
   "Summary Takeaways",
   titlePanel("Summary Takeaways"),
-  h3("Screen Time Data"),
-  p(""),
-  h3("Stress Data"),
+  h3("Screen Time Data Men vs. Women"),
+  p("The visualization of this data set is split into four variables that are being measured. There is hours of sleep recieved by men
+and hours of sleep recieved by women, and those two variables are adjusted by age groups. The last variable is the house of screen time each
+subject watched during the day corresponding to how many hours of sleep they recieved that night. Through the color scatterplot graph
+we are able to view where the freqencies of the combination of screen time and hours of sleep are more dense for certain age groups/gender,
+and where they are less dense. From examining the data we have come to the concusion that based on this singular data set, there is no noticable
+correlation between the two variables screen time and hours of sleep no matter the varying factors of age and gender."),
+  h3("Factors of Stress Data"),
   p(""),
   h3("Depression Data"),
   p("The visualization of each age group and the number of hours each condition or control group recieved reveals that there is no
