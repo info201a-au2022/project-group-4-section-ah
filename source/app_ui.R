@@ -21,7 +21,7 @@ intro_page <- tabPanel(
 )
 
 page_one <- tabPanel(
-  "Visual 1",
+  "Screen Time and Sleep",
   titlePanel("Screen Time and Sleep"),
   sidebarLayout(
     sidebarPanel(
@@ -48,8 +48,8 @@ page_one <- tabPanel(
 )
 
 page_two <- tabPanel(
-  "Visual 2",
-  titlePanel("Stress Data"),
+  "Stress and Sleep",
+  titlePanel("Stress and Sleep"),
   
   
   
