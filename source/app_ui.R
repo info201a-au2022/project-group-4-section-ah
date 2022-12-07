@@ -106,7 +106,7 @@ lower rates such as 45, subjects recieved great amounts of sleep and for a highe
 a great amount of sleep. A major takeaway we gained from analyzing the data from this data set is that although a there is a popular notion that
 those who are more stressed have a harder time sleeping or getting the same amount of sleep as a someone who isn't perhaps as stressed, some factors
 such as heart rate and blood oxygen levels, which are factors you wouldn't think would contribute to stress while sleeping, do actually effect hours 
-of sleep a human receives. 
+of sleep a human receives negativly. 
 "),
   h3("Depression Data"),
   p("The visualization of each age group and the number of hours each condition or control group recieved reveals that there is no
