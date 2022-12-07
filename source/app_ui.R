@@ -66,10 +66,16 @@ page_one <- tabPanel(
 page_two <- tabPanel(
   "Stress and Sleep",
   titlePanel("Stress and Sleep"),
-  
-  
-  
-  
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(inputId = "stress_factors", label = "Human Stress Factors", 
+                  choices = c("snoring rate", "respiration rate", "body temperature"
+                              ,"limb movement", "blood oxygen"))
+    ),
+    mainPanel(
+      plotlyOutput("histogram_chart")
+    )
+  ),
   p("This histogram of the stress data set compares the hours of sleep to the 
 subjects many factors that were observed. Such factors were snoring rate, 
 resprition rate, body temperature, limb movement, and blood oxygyn levels. 
