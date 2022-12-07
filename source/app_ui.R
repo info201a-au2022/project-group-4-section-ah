@@ -58,8 +58,14 @@ page_two <- tabPanel(
 subjects many factors that were observed. Such factors were snoring rate, 
 resprition rate, body temperature, limb movement, and blood oxygyn levels. 
 There factorswere measured by various scales, hence meaning not all the same 
-measurement scale was used for all variables.")
-  # page 2 UI goes here
+measurement scale was used for all variables. By creating histograms for the 
+varying variables, the audience is able to view and compare the relationship
+between hours of sleep and the lower or higher ranges of, for example, snoring rates.
+The data reveals that for some variables a skewed lower or higher measurement resulted in 
+a greater amount of sleep. However, there were variables that revealed no such correlation
+between the two variables, hours of sleep and, for example, snoring rate. For snoring rate
+lower rates such as 45, subjects recieved great amounts of sleep and for a higher snoring
+rate such as 100, subjects still recieved a great amount of sleep.")
 )
 
 page_three <- tabPanel(
