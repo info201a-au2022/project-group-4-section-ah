@@ -182,7 +182,33 @@ report_page <- tabPanel(
   h3("Limitations"),
   p("Limitations such as a lack of enough data in the data sets could be an issue. If one or more of the data sets are not credible or do not level with the credibility of the other sources. Issues such as lack of variables, skewed data, or a lack of correlation could be prevalent. As a group, we will have to discuss how we will go about damage control if we run into any of these issues. We have decided we would attempt to find a new source of data that better encompasses our research questions if possible. If finding a new similar source is not possible we will have to take the data to its best ability and examine it with our analysis understanding there are limitations and should be speculation to the end result."),
   h3("Findings"),
-  p(""),
+  p("Through the collection of the three data sets we set aside goals of our data analysis. These goals were formulated 
+into research questions that after data wrangling, analyzing, and examining we are able to answer. The first research 
+question was asking what factors, if there were any, had an effect on the duration or quality of a child’s sleep. Through 
+looking at the variables that were used as measurements in the tracking of hours of sleep for children we found that, snoring 
+rates, age (not specific age groups), REM sleep, blood oxygen levels, body temperature, respiration rates, stress levels, limb movement,
+and heart rate."),
+p("The second question we asked before conducting our research was if increased amounts of screen time had any affect 
+or correlation to lower quality or the lack of sleep for the younger generation. From our findings we have come to the 
+conclusion that that is not the case. There is not strong correlation between increased screen time and sleep quality for 
+children 0-18. There is data and data points however the correlation when using mathematical terms such as Pearson’s correlation 
+coefficient’s” it is closer to 0 than to 1 or -1 meaning it is a weak correlation. We did notice that the older kids meaning ages 
+ranging from 14 and up received less sleep in general but there still was no clear indication that that was due to the screen usage. "),
+p("The third question we asked was if there was a correlation between stress management and the quality of sleep of the 
+younger generation. The answer to that question is that yes, some variables played a factor is assessing if they were a 
+possible reasons of lack of sleep due to stress. Breaking it down there were nine variables that were charted from the dataset. 
+Lower stress levels led to greater number of hours slept. Lower snoring levels (sr 1) measured in decibels, led to greater number 
+of hours slept. Less rapid limb movement measured showed that those subjects received a greater number of hours slept. Higher rates 
+in REM sleep or rapid eye movement resulted in greater amounts of hours slept. Higher ranges of blood oxygen levels resulted in greater
+amounts of hours slept and higher body temperatures resulted in greater amounts of hours slept from subjects. Variables such as heart 
+rate and respiration rate were inconclusive on whether they were a supportive assessment on reasons for stress causing lack of sleep. 
+Their data charts were not skewed to either right nor left which indicates that their data was fluctuating amongst each subject with 
+no pattern."),
+p("The last question we asked was if there was a correlation between mental health and quality and duration of sleep seen 
+in younger generations. The answer to that question is no there is no strong correlation between depression and duration 
+of sleep. The control group and condition group have fluctuating sleep duration numbers across all age groups which indicates 
+that there is no clear patterns that either condition or control have higher numbers of sleep durations that the other. 
+"),
   h3("Discussions"),
   p(""),
   h3("Conclusion"),
