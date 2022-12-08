@@ -70,7 +70,9 @@ page_two <- tabPanel(
     sidebarPanel(
       selectInput(inputId = "stress_factors", label = "Human Stress Factors", 
                   choices = c("snoring rate", "respiration rate", "body temperature"
-                              ,"limb movement", "blood oxygen"))
+                              ,"limb movement", "blood oxygen", 
+                              "heart rate", "rapid eye movement (REM)", 
+                              "stress level (sr 1)", "sleeping hours (sr)"))
     ),
     mainPanel(
       plotlyOutput("histogram_chart")
