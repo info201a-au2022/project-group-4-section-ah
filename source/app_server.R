@@ -25,6 +25,16 @@ server <- function(input, output) {
   output$histogram_chart <- renderPlotly({
     stress_data <- read.csv("https://raw.githubusercontent.com/info201a-au2022/project-group-4-section-ah/main/data/stress_data.csv")
     stress_data <- stress_data %>%
+      filter(sr == input$stress_factors) %>%
+      filter(rr == input$stress_factors) %>%
+      filter(t == input$stress_factors) %>%
+      filter(lm == input$stress_factors) %>%
+      filter(bo == input$stress_factors) %>%
+      filter(rem == input$stress_factors) %>%
+      filter(sr == input$stress_factors) %>%
+      filter(hr == input$stress_factors) %>%
+      filter(sl == input$stress_factors) %>%
+      select(
       gather(key="text", value="value") %>%
       mutate(text = gsub("\\.", " ",text)) %>%
       mutate(value = round(as.numeric(value),0)) %>% 
