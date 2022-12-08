@@ -236,7 +236,21 @@ as male or female. It does not include those who are, for example, intersex. Man
 biological sex and not gender, however, experiences of, for example, transgender people also deserve to be represented in powerful research. 
 "),
   h3("Conclusion"),
-  p(""),
+  p("Sleep is a constant in every human being’s life. It is a necessity and sometimes a difficult thing to get good quality
+amount of. Our group chose to dive deep into learning about what factors of lack of sleep really affect duration of sleep 
+in the younger generation. We did this through researching for datasets that conducted experiments on mainly the younger 
+generation, with the exception of one dataset that included a wide variety of age ranges. These datasets focused on varying 
+factors that many people assume as reason for lack of sleep or lack of quality sleep. These factors are screen time, depression 
+symptoms, and stress. We found datasets that focused on exactly those variables. Within the datasets there were multiple variables 
+being measured of the subjects. Such as for the stress dataset, there was snoring rate, heart rate, respiration rate, rapid eye 
+movement rate, and more. These variables were helpful in assessing which contribution to lack of sleep or more sleep. That was one 
+example of the type of variables we data wrangled for this project. There were many more dispersed throughout the datasets. 
+Overall, as seen in our findings section, we explained that how we were able to answer our research questions. A lot of the assumptions
+people make, such as screen time is a main culprit for lack of sleep amongst children, is actually not entirely true according 
+to the dataset we chose. Some stress variables result in less sleep while other do not show a pattern.  Depressive tendencies 
+do not effect sleep either according to the dataset we chose, even amongst different age groups. We learned quite a bit about 
+searching for datasets, data wrangling, data analysis, and the reminded ourselves of the importance of sleep for children and 
+for everyone!"),
   h3("Acknowledgments"),
   p("Thank you to this team who is reliable and flexible."),
   h3("References"),
