@@ -34,7 +34,7 @@ server <- function(input, output) {
       filter(sr == input$stress_factors) %>%
       filter(hr == input$stress_factors) %>%
       filter(sl == input$stress_factors) %>%
-      select(
+      select(sr,rr,t,lm,bo,rem,sr,hr,sl) %>%
       gather(key="text", value="value") %>%
       mutate(text = gsub("\\.", " ",text)) %>%
       mutate(value = round(as.numeric(value),0)) %>% 
