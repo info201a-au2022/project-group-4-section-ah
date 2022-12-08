@@ -69,23 +69,24 @@ page_two <- tabPanel(
   sidebarLayout(
     sidebarPanel(
       selectInput(inputId = "stress_factors", label = "Human Stress Factors", 
-                  choices = c("snoring rate", "respiration rate", "body temperature"
-                              ,"limb movement", "blood oxygen", 
-                              "heart rate", "rapid eye movement (REM)", 
-                              "stress level (sr 1)", "sleeping hours (sr)"))
+                  choices = c("snoring rate", "respiration rate", 
+                                  "body temperature", "limb movement", 
+                                  "blood oxygen", "heart rate", 
+                                  "rapid eye movement (REM)", 
+                                  "stress level (sr 1)", "sleeping hours (sl)"))
     ),
     mainPanel(
       plotlyOutput("histogram_chart")
     )
   ),
   p("This histogram of the stress data set compares the hours of sleep to the 
-subjects many factors that were observed. Such factors were snoring rate, 
-resprition rate, body temperature, limb movement, and blood oxygyn levels. 
-There factorswere measured by various scales, hence meaning not all the same 
-measurement scale was used for all variables. By creating histograms for the 
+subjects many factors that were observed. Some factors were snoring rate, 
+respiration rate, body temperature, limb movement, and blood oxygen levels. 
+There factors were measured by various scales, meaning the same 
+measurement scale was not used for all variables. By creating histograms for the 
 varying variables, the audience is able to view and compare the relationship
-between hours of sleep and the lower or higher ranges of, for example, snoring rates.
-")
+between hours of sleep and the lower or higher ranges of, for example, 
+snoring rates.")
 )
 
 page_three <- tabPanel(

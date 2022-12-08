@@ -1,0 +1,14 @@
+name: info201-final-sleep
+title: info201-final-sleep
+username:
+account: dhruvashok
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 7835695
+bundleId: 6609895
+url: https://dhruvashok.shinyapps.io/info201-final-sleep/
+when: 1670495463.78842
+lastSyncTime: 1670495463.78844
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData|chart_1.R|chart_2.R|chart_3.R|data_access.R|README.md|summary_info.R|table_summary.R
